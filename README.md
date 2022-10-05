@@ -7,11 +7,20 @@
 ## Setup
 To get started simple [fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) this repository and start doing assignments described below.
 
+---
 ## 1. Oh, no! Wrong name
 Let's imagine the next situation. You accidentally made a commit with wrong name or email.
 In basic situation, when you figured that you last commit have wrong author, you can fix it quickly. Simply run this command `git commit --amend --author="Author Name <email@address.com>" --no-edit` with proper author. You can find detailed explanation of `--amend` flag [here](https://www.atlassian.com/git/tutorials/rewriting-history#git-commit--amend).
 
 You can find a branch named `wrong-name` which contains commit with message`Wrong commit`. Your __first task__ is to fix that commit with you actual name.
 > *Will be better if you fix commit message too (read `--amend` documentation)
-> 
-> If commit is already pushed to the remote, you can override it using `git push -f`, be careful with `-f` flag it will override you target branch 
+ 
+> If commit is already pushed to the remote, you can override it using `git push -f`, be __careful__ with `-f` flag it will override you target branch
+
+---
+## 2. Merge
+This one is pretty basic, you need to merge the `master` branch to the target `merge` branch. See docs for merge [here](https://www.w3schools.com/git/git_branch_merge.asp).
+
+---
+## 3. Merge conflict
+Sometimes when you merge branches, there can be conflicts. You next task is to merge `master` to the target `merge-conflict` branch and fix all conflicts
