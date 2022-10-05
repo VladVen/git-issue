@@ -31,7 +31,8 @@ Merge conflicts in git happen, when two branches were changed on the same line o
 ## 4. Merge request
 A merge request (MR) is a request from someone to merge in code from one branch to another. In this task you need to create a new branch, name is up to you. Then add a new file named `index.html` and push those change to the remote. Use [this](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) guide to create MR
 
+___
 ### 5. Rebase
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. It is crucial to understand the difference between merge and rebase. For this, check the next [link](https://www.atlassian.com/git/tutorials/merging-vs-rebasing), [link](https://medium.datadriveninvestor.com/git-rebase-vs-merge-cc5199edd77c)
 
-Your task is to rebase the `master` branch to the target `rebase` branch (checkout to the `rebase`)
+Your task is to rebase the `master` branch to the target `rebase` branch (checkout to the `rebase`). And fix all conflicts
