@@ -1,1 +1,1 @@
-let someRandomVar = 'Some text'
+let someRandomVar = 'Some other text'
