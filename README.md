@@ -33,6 +33,11 @@ A merge request (MR) is a request from someone to merge in code from one branch 
 
 ___
 ### 5. Rebase
-Rebasing is the process of moving or combining a sequence of commits to a new base commit. It is crucial to understand the difference between merge and rebase. For this, check the next [link](https://www.atlassian.com/git/tutorials/merging-vs-rebasing), [link](https://medium.datadriveninvestor.com/git-rebase-vs-merge-cc5199edd77c)
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. It is crucial to understand the difference between merge and rebase. For this, check the next [link](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase), [link](https://www.atlassian.com/git/tutorials/merging-vs-rebasing), [link](https://medium.datadriveninvestor.com/git-rebase-vs-merge-cc5199edd77c), [link](https://docs.github.com/en/get-started/using-git/resolving-merge-conflicts-after-a-git-rebase)
 
-Your task is to rebase the `master` branch to the target `rebase` branch (checkout to the `rebase`). And fix all conflicts
+Your task is to rebase the `master` branch to the target `rebase` branch (checkout to the `rebase`). And fix all conflicts.
+
+---
+### 6. Squash commits
+To "squash" in Git means to combine multiple commits into one. Your task is checkout to the `squash` branch and combine commits `Squash me 1`, `Squash me 2`, `Squash me 3` to the single `Squash me` commit.
+Checkout [this](https://www.internalpointers.com/post/squash-commits-into-one-git) for help
