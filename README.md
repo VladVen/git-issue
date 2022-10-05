@@ -9,4 +9,9 @@ To get started simple [fork](https://docs.gitlab.com/ee/user/project/repository/
 
 ## 1. Oh, no! Wrong name
 Let's imagine the next situation. You accidentally made a commit with wrong name or email.
-In basic situation, when you figured that you last commit have wrong author, you can fix it quickly. Simply run this command `git commit --amend --author="Author Name <email@address.com>" --no-edit` with proper author. You can find detailed explanation of `--amend` flag [here](https://www.atlassian.com/git/tutorials/rewriting-history#git-commit--amend)
+In basic situation, when you figured that you last commit have wrong author, you can fix it quickly. Simply run this command `git commit --amend --author="Author Name <email@address.com>" --no-edit` with proper author. You can find detailed explanation of `--amend` flag [here](https://www.atlassian.com/git/tutorials/rewriting-history#git-commit--amend).
+
+You can find a branch named `wrong-name` which contains commit with message`Wrong commit`. Your __first task__ is to fix that commit with you actual name.
+> *Will be better if you fix commit message too (read `--amend` documentation)
+> 
+> If commit is already pushed to the remote, you can override it using `git push -f`, be careful with `-f` flag it will override you target branch 
