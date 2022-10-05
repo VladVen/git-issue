@@ -23,4 +23,4 @@ This one is pretty basic, you need to merge the `master` branch to the target `m
 
 ---
 ## 3. Merge conflict
-Sometimes when you merge branches, there can be conflicts. You next task is to merge `master` to the target `merge-conflict` branch and fix all conflicts
+Merge conflicts in git happen, when two branches were changed on the same line or in the same content of a file before a merge. If you just extend a file or append something, git usually just figures it out by itself. You next task is to merge `master` to the target `merge-conflict` branch and fix all conflicts
