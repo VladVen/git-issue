@@ -24,3 +24,7 @@ This one is pretty basic, you need to merge the `master` branch to the target `m
 ---
 ## 3. Merge conflict
 Merge conflicts in git happen, when two branches were changed on the same line or in the same content of a file before a merge. If you just extend a file or append something, git usually just figures it out by itself. You next task is to merge `master` to the target `merge-conflict` branch and fix all conflicts
+
+---
+## 4. Merge request
+A merge request (MR) is a request from someone to merge in code from one branch to another. In this task you need to create a new branch, name is up to you. Then add a new file named `index.html` and push those change to the remote. Use [this](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) guide to create MR 
